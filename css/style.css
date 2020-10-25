@@ -305,7 +305,6 @@ header .main-nav .main-menu li:hover .sub-list{
 } 
 
 .featured-product .products{
-	width: 80%;
 	margin: 80px auto;
 	display: flex;
 	justify-content: space-between;
@@ -314,9 +313,13 @@ header .main-nav .main-menu li:hover .sub-list{
 
 .featured-product .products .product{
 	border: 1px solid #ebedee;
-
+	flex-basis: 31%;
 }
 
+.featured-product .products .product .img img{
+	width: 100%;
+	height: 100%;
+}
 .featured-product .products .product .img{
 	position: relative;
 	height: 420px;
@@ -433,6 +436,7 @@ header .main-nav .main-menu li:hover .sub-list{
 	color: #ffff;
 	padding: 17px 35px;
 	background-color: #71cd14;
+	border:1px solid #71cd14;
 	font-weight: bolder;
 	border-radius: 5px;
 	display: inline-block;
@@ -457,8 +461,6 @@ header .main-nav .main-menu li:hover .sub-list{
 /*new-product*/
 
 .new-product{
-	width: 100%;
-	margin: 130px auto;
 	text-align: center;
 }
 
@@ -489,7 +491,6 @@ header .main-nav .main-menu li:hover .sub-list{
 } 
 
 .new-product .products{
-	width: 80%;
 	margin: 80px auto;
 	display: flex;
 	justify-content: space-between;
@@ -497,7 +498,7 @@ header .main-nav .main-menu li:hover .sub-list{
 }
 
 .new-product .products .main-product{
-	width: 50%:;
+	width: 45%;
 	background: #f6f6f6;
 	padding: 90px 20px;
 }
@@ -517,7 +518,9 @@ header .main-nav .main-menu li:hover .sub-list{
 	margin-bottom: 100px;
 	text-transform: uppercase;
 }
-
+.new-product .products .main-product img{
+	width: 100%;
+}
 .new-product .products .main-product .price{
 	font-weight: 400;
 	font-size: 30px;
@@ -531,6 +534,7 @@ header .main-nav .main-menu li:hover .sub-list{
 	color: #ffff;
 	padding: 17px 35px;
 	background-color: #71cd14;
+	border:1px solid #71cd14;
 	font-weight: bolder;
 	border-radius: 5px;
 	display: inline-block;
@@ -544,17 +548,15 @@ header .main-nav .main-menu li:hover .sub-list{
 }
 
 .new-product .products .second-product{
-	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
-
+	justify-content: space-between;
+	flex-basis: 50%;
 }
 
 .new-product .products .second-product .product{
-	width: 255px;
 	border: 1px solid #ebedee;
 	margin-bottom: 50px;
-	margin-right: 35px;
 }
 
 .new-product .products .second-product .product:nth-of-type(3){margin-bottom: 0;}
@@ -959,16 +961,18 @@ footer ul li:last-child p{
 footer ul li:last-child input{
 	height:50px;
 	width: 75%;
-	background: rgba(255,255,255,0.15);
+	background: #ffffff26;
 	color: #fff;
 	border: none;
 	content: #ffffff;
 	padding: 10px;
+	border: 3px solid #ffffff26;
+	box-shadow:0 0 .2rem #ffffff26;
 }
 
 footer ul li:last-child input:focus{
-	border: 3px solid rgba(0, 123, 255, .25);
-	box-shadow:0 0 .2rem rgba(0, 123, 255, .25);
+	border: 3px solid #007bff40;
+	box-shadow:0 0 .2rem #007bff40;
 }
 
 footer ul li:last-child button{
@@ -980,6 +984,7 @@ footer ul li:last-child button{
 	position: absolute;
 	bottom: 10px;
 	right:35px;
+	cursor: pointer;
 }
 
 footer ul li:last-child button:hover{
@@ -987,8 +992,8 @@ footer ul li:last-child button:hover{
 }
 
 footer ul li:last-child button:focus{
-	border: 2px solid rgba(0, 123, 255, .25);
-	box-shadow:0 0 .2rem rgba(0, 123, 255, .25);
+	border: 2px solid #007bff40;
+	box-shadow:0 0 .2rem #007bff40;
 }
 
 
