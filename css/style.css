@@ -214,6 +214,7 @@ header .main-nav .main-menu li:hover .sub-list{
 	color: #ffff;
 	padding: 17px 35px;
 	background-color: #71cd14;
+	border:1px solid #71cd14;
 	font-weight: bolder;
 	border-radius: 5px;
 	display: inline-block;
