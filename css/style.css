@@ -297,7 +297,7 @@ header .main-nav .main-menu li:hover .sub-list{
 	left: 0px;
 }
 
-.featured-product > p{
+.featured-product .container > p{
 	color: #797979;
 	font-size: 14px;
 	line-height: 24px;
@@ -483,7 +483,7 @@ header .main-nav .main-menu li:hover .sub-list{
 	left: 0px;
 }
 
-.new-product > p{
+.new-product .container > p{
 	color: #797979;
 	font-size: 14px;
 	line-height: 24px;
